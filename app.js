@@ -20,6 +20,7 @@ function agregarAmigo() {
     } else {
         //Actualizar array amigos y limpiar campo.
         amigos.push(entradaNombre);
+        listaHtml('listaAmigos', amigos)
         limpiarEntrada('amigo',"");
     }
     return console.log(amigos);
@@ -29,4 +30,14 @@ function limpiarEntrada(id,valor){
     let elementoHTML = document.getElementById(id);
     elementoHTML.value = valor;
     return;
+}
+
+function listaHtml(id, lista) {
+    let elementoHTML = document.getElementById(id);
+    elementoHTML.innerHTML = "";
+    for (let i = 0; i < lista.length; i++) {
+        let li = document.createElement('li');
+        li.textContent = amigos[i];
+        elementoHTML.appendChild(li);
+    }
 }
