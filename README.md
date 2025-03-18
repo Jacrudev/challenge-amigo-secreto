@@ -34,4 +34,4 @@ Acceso a la aplicación ➡️ <u>🎁[Amigo secreto](https://jacrudev.github.io
 En las siguientes versiones el usuario podrá validar su propio nombre en el sorteo, para no salir sorteado el mismo.
 
 ## ⚠️Problemas.
-Si presentas problemas o tienes cualquier sugerencia contactanos por nuestro [correo de contacto](correo.ejemplo@gmail.com)✉️.
+Si presentas problemas o tienes cualquier sugerencia contactanos por nuestro [correo de contacto](mailto:correo.ejemplo@gmail.com)✉️.
