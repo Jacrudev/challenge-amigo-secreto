@@ -30,8 +30,8 @@ Acceso a la aplicación ➡️ <u>🎁[Amigo secreto](https://jacrudev.github.io
     <img src="https://github.com/user-attachments/assets/e0f1cb42-424f-4477-861f-3dcac3afbd1a" alt="nombre_oculto"     style="width: 18%"/><br/>
 <div>
 
-##  🚧Mejoras.
+## 🚧Mejoras.
 En las siguientes versiones el usuario podrá validar su propio nombre en el sorteo, para no salir sorteado el mismo.
 
-## ⚠️Problemas.
-Si presentas problemas o tienes cualquier sugerencia contactanos por nuestro [correo de contacto](mailto:correo.ejemplo@gmail.com)✉️.
+## ✉️Contacto.
+Si presentas problemas o tienes cualquier sugerencia contactanos por nuestro [correo.ejemplo@gmail.com](mailto:correo.ejemplo@gmail.com).
