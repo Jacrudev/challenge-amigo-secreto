@@ -9,6 +9,8 @@
 ## ℹ️ Descripción de la aplicación.
 La aplicación permite a los usuarios ingresar nombres en una lista, para luego realizar un sorteo aleatorio y determinar quién es el "amigo secreto".
 
+Acceso a la aplicación ➡️ <u>🎁[Amigo secreto](https://jacrudev.github.io/challenge-amigo-secreto/)🎁<u/> 
+
 ## 🔨 ¿Cómo utilizar la aplicación?
 1. En el cuadro de entrada se ingresan los nombres, individualmente, a participar del sorteo.
 2. Se hace click en el botón añadir (repetir los pasos 1 y 2 las veces necesarias).
