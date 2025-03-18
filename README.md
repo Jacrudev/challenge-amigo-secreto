@@ -3,8 +3,11 @@
   <img src="https://github.com/user-attachments/assets/24aaaaf3-85c7-44d8-9a2e-53527770f501" alt="logo-amigo-secreto"     style="width: 150px;"/> 
 </h1>
 
+[![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#)
+[![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff)](#)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](#)
 ![Badge-version](https://img.shields.io/badge/Versi%C3%B3n-V1.0-green)
-![Badge-publicacion](https://img.shields.io/badge/Publicado-Marzo-yellow)
+![Badge-publicacion](https://img.shields.io/badge/Publicado-Marzo_2025-yellow)
 
 ## ℹ️ Descripción de la aplicación.
 La aplicación permite a los usuarios ingresar nombres en una lista, para luego realizar un sorteo aleatorio y determinar quién es el "amigo secreto".
