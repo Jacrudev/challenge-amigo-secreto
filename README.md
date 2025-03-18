@@ -9,12 +9,12 @@
 ![Badge-version](https://img.shields.io/badge/Versi%C3%B3n-V1.0-green)
 ![Badge-publicacion](https://img.shields.io/badge/Publicado-Marzo_2025-yellow)
 
-## ℹ️ Descripción de la aplicación.
+## ℹ️Descripción de la aplicación.
 La aplicación permite a los usuarios ingresar nombres en una lista, para luego realizar un sorteo aleatorio y determinar quién es el "amigo secreto".
 
 Acceso a la aplicación ➡️ <u>🎁[Amigo secreto](https://jacrudev.github.io/challenge-amigo-secreto/)🎁<u/> 
 
-## 🔨 Funcionamiento de la aplicación.
+## 🔨Funcionamiento de la aplicación.
 
 <div>
   1. En el cuadro de entrada se ingresan los nombres, individualmente, a participar del sorteo.<br/>
@@ -30,8 +30,8 @@ Acceso a la aplicación ➡️ <u>🎁[Amigo secreto](https://jacrudev.github.io
     <img src="https://github.com/user-attachments/assets/e0f1cb42-424f-4477-861f-3dcac3afbd1a" alt="nombre_oculto"     style="width: 18%"/><br/>
 <div>
 
-##  🚧 Mejoras.
+##  🚧Mejoras.
 En las siguientes versiones el usuario podrá validar su propio nombre en el sorteo, para no salir sorteado el mismo.
 
-## ⚠️ Problemas.
+## ⚠️Problemas.
 Si presentas problemas o tienes cualquier sugerencia contactanos por nuestro [correo de contacto](correo.ejemplo@gmail.com)✉️.
