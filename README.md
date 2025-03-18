@@ -1,6 +1,6 @@
 <h1>
   Amigo secreto
-  <img src="https://github.com/user-attachments/assets/24aaaaf3-85c7-44d8-9a2e-53527770f501" alt="logo-amigo-secreto"     style="width: 150px"/> 
+  <img src="https://github.com/user-attachments/assets/24aaaaf3-85c7-44d8-9a2e-53527770f501" alt="logo-amigo-secreto"     style="width: 15%"/> 
 </h1>
 
 [![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#)
@@ -31,7 +31,7 @@ Acceso a la aplicación ➡️ <u>🎁[Amigo secreto](https://jacrudev.github.io
 <div>
 
 ##  🚧 Mejoras.
-En las siguientes versiones el usuario podrá validar su propio nombre en el sorteo, para no darse un regalo ¿no?. 
+En las siguientes versiones el usuario podrá validar su propio nombre en el sorteo, para no salir sorteado el mismo.
 
 ## ⚠️ Problemas.
-Si presentas problemas o tienes cualquier sugerencia contactanos por nuestro [correo de contacto](correo.ejemplo@gmail.com).
+Si presentas problemas o tienes cualquier sugerencia contactanos por nuestro [correo de contacto](correo.ejemplo@gmail.com)✉️.
