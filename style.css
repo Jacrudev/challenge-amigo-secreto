@@ -88,6 +88,8 @@ body {
 }
 
 .button-container {
+    display: inline-flex;
+    gap: 1%;
     width: 300px;
     justify-content: center;
 }
@@ -146,11 +148,23 @@ ul {
 .button-draw {
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 80%;
     padding: 10px 40px;
     color: var(--color-white);
     background-color: var(--color-button);
     font-size: 16px;
+}
+
+/* Botón para ocultar sorteo título */
+#botonOcultar {
+    padding: 15px 14px;
+    width: 20%;
+}
+
+#botonOcultar:disabled {
+    background: var(--color-text);
+    opacity: 60%;
+    cursor: not-allowed;
 }
 
 .button-draw img {

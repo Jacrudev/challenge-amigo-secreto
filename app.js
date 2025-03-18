@@ -1,13 +1,14 @@
-// Variables.
+//Variables.
 let amigos = [];
-let entradaNombre = "";
-
-const patronValidacion = /^[A-Za-z\s]+$/;
+let amigoSorteado = 0;
+let cambiarBoton = 0;
 
 //Funciones.
 function agregarAmigo() {
+    //Patrón de validación de entrada.
+    const patronValidacion = /^[A-Za-z\s]+$/;
     //Capturar el valor de entrada en arrray amigos.
-    entradaNombre = document.getElementById('amigo').value;
+    let entradaNombre = document.getElementById('amigo').value;
 
     //Validar entrada.
     if (entradaNombre == '') { //Campo vacío.
@@ -18,26 +19,67 @@ function agregarAmigo() {
         limpiarEntrada('amigo',"");
         return false;
     } else {
-        //Actualizar array amigos y limpiar campo.
+        //Actualizar array amigos.
         amigos.push(entradaNombre);
         listaHtml('listaAmigos', amigos)
         limpiarEntrada('amigo',"");
     }
-    return console.log(amigos);
-}
-
-function limpiarEntrada(id,valor){
-    let elementoHTML = document.getElementById(id);
-    elementoHTML.value = valor;
     return;
 }
 
+//Borra cualquier valor ingresado en el campo amigo.
+function limpiarEntrada(id,valor){
+    document.getElementById(id).value = valor;
+    return;
+}
+
+//Cambiar texto a un elemento html.
+function asignarTextoElemento(id,texto) {
+    document.getElementById(id).innerHTML = texto; //Cambia todo el contenido interno. 
+    return;
+}
+
+//Actualiza la lista de amigos al usuario.
 function listaHtml(id, lista) {
-    let elementoHTML = document.getElementById(id);
-    elementoHTML.innerHTML = "";
+    asignarTextoElemento(id,'');
     for (let i = 0; i < lista.length; i++) {
         let li = document.createElement('li');
         li.textContent = amigos[i];
-        elementoHTML.appendChild(li);
+        document.getElementById(id).appendChild(li);
+    }
+    return;
+}
+
+//Sortear amigos
+function sortearAmigo() {
+    if (amigos.length == 0) {
+        alert('Por favor, ingrese al menos un nombre para poder realizar el sorteo.')
+    } else {
+        let indiceAleatorio = Math.floor(Math.random()*amigos.length);
+        asignarTextoElemento('resultado',`El amigo secreto es: ${amigos[indiceAleatorio]}`);
+        amigoSorteado = amigos.splice(indiceAleatorio,1); //Amigo sorteado es eliminado del sorteo siguiente.
+        asignarTextoElemento('listaAmigos',''); //Eliminar lista visible al usuario.
+        //Condiciones de boton ocultar.
+        document.getElementById('botonOcultar').removeAttribute('disabled'); 
+        document.getElementById('imgBotonOcultar').src = "assets/oculto.png";
+        cambiarBoton = 0;
+    } 
+    return;
+}
+
+//Oculta/muestra amigo sorteado
+function ocultarAmigoSecreto() {
+    switch (cambiarBoton) {
+        case 1:
+            asignarTextoElemento('resultado',`El amigo secreto es: ${amigoSorteado}`);
+            document.getElementById('imgBotonOcultar').src = "assets/oculto.png";
+            cambiarBoton--;
+            break;
+    
+        case 0:
+            asignarTextoElemento('resultado','El amigo secreto es: ***');
+            document.getElementById('imgBotonOcultar').src = "assets/mostrar.png";  
+            cambiarBoton++;
+            break;
     }
 }
